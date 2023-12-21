@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Counter  */
+.counterSection {
+  height: 200px;
+  width: 400px;
+  border: 5px solid;
+  border-image: linear-gradient(to right, red, blue, green, yellow);
+  border-image-slice: 1;
+}
+
+.displayCounts {
+  font-size: 30px;
+  text-align: center;
+
+}
+.btnSec {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  /* border: 2px solid red; */
+}
+.btnSec2 {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+.incrBtn {
+  padding: 7px 20px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 20px;
+}
+.decBtn {
+  padding: 7px 20px;
+  border-radius: 10px;
+  border: none;
+}
+.resetBtn {
+  padding: 7px 20px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+}
+.addAmount {
+  padding: 7px 20px;
+  border-radius: 10px;
+  border: none;
+}
+.counterSection input {
+  width: 90%;
+  margin: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+}
