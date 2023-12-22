@@ -8,9 +8,13 @@ import {
   reset,
   incrementByAmount,
 } from "./counter/counterSlice";
+
+
 const Counter = () => {
+
   const count = useSelector((state) => state.counter.count);
   const dispatch = useDispatch();
+
   const [incrementAmount, setIncrementAmount] = useState(0);
   const addValue = Number(incrementAmount) || 0;
   const resetAll = () => {
